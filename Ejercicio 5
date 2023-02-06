@@ -1,1 +1,25 @@
-Hecho por Ruben Alamo
+@startuml
+object Circulo{
+    color negro
+    diametro 3 cm
+}
+
+object Rectangulo{
+    longitud 4 cm
+    anchura 2 cm
+    color naranja
+}
+
+object Cuadrado{
+    longitud 2 cm
+    color azul
+}
+
+object Elipse{
+color amarillo
+eje mayor 3 cm
+eje menor 2 cm
+}
+
+
+@enduml
