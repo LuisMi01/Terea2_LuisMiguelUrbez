@@ -1,0 +1,38 @@
+@startuml
+
+ object Gioconda: Cuadro {
+        Titulo = "La Gioconda"
+        Autor = "Leonardo Da Vinci"
+        AC = 1503-1516
+        Tecnica = "Óleo"
+        Sub-tecnica = "sfumato"
+        Material de soporte = "Madera de alamo"
+        Estado de conservacion = "Regular"
+    }
+    object Gioconda: Replica {
+        Titulo = "La Gioconda"
+        Autor = "Anonimo (la original es de Leonardo Da Vinci)"
+        AC = 1503-1516
+        Tecnica = "Óleo al igual que la original"
+        Sub-tecnica = "Pinclado simple (la original emplea “sfumato”)"
+        Material de soporte = "Madera de nogal"
+        Estado de conservacion = "Bueno"
+    }
+    object Lugar1: Lugar {
+        Nombre = "Museo del Louvre"
+        Ciudad = "París"
+        Pais = "Francia"
+
+    }
+    object Lugar2: Lugar {
+        Nombre = "Museo del Prado"
+        Ciudad = "Madrid"
+        Pais = "España"
+    }
+
+    Cuadro -- "Es replica de" Replica
+    Cuadro --|> "Se encuentra en" Lugar1
+    Replica --|> "Se encuentra en" Lugar2
+
+
+@enduml
