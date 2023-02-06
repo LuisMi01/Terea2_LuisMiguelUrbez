@@ -1,0 +1,15 @@
+@startuml
+object CatedralDeSantiagoEdificio{
+Nombre = “Catedral de Santiago de Compostela”
+Culto = Católico
+Lug ar = “San tiag o de Compostela, G alicia, Españ a”
+Fecha inicio construcción = 1075
+Fecha fin constru cción = 112 2
+Fecha primera co nsa gración = 1128
+Fecha inicio segu nda etapa co nstrucción = 1168
+Fecha seg unda consagración = 3 de abril de 121 1
+Fecha declaración BIC = 1896
+Material = Gran ito
+Esti lo = Román ico, Gótico, Bar roco, Platere sco, Neoclásico
+}
+@enduml
