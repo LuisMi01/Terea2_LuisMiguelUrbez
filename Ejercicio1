@@ -1,21 +1,23 @@
 @startuml
-class c1:Circulo{
+class c1Circulo{
 Color = "Negro"
 Diamtro =1
 }
-class r1:Rectángulo{
+class r1Rectángulo{
 Longitud = 3
 Anchur a = 1
 Color = “Naranja”
 }
 
-class c2:Cuadrado{
+class c2Cuadrado{
 Longitud = 1.5
 Color = “Azul”
 } 
 
-class e1:Elipse{
+class e1Elipse{
 Color = “Amarillo”
 Eje Mayor = 3
 }
+
+www.plantuml.com/plantuml/png/LOz1YeCm543tEKNm00CPcQMWEEvcBFG6lqcmaPXVlicYbO87QHSzIs_YIHg5Ibs5yDzxdv_t7iY7phBTeTNISobAGp9O75Y95ebdFAbrGvYmNmET9-IPODStJc8Vd-V3DOloXwunFgXefQnmyXY8G_o8DJQDjne8N0lJU8-TTUzt6K0Hg6r5VFrygiKbsAsdHMNDgTV31kk0ZBKuerMh-J-Sbr4QnLmxDT_x0W00
 @enduml
