@@ -1,0 +1,12 @@
+@startUML
+enum TipoActuacion{
+    Sondeo 
+    Excavacion 
+    Seguimiento
+}
+class Actuacion{
+Fecha Inicio: inicio1
+Fecha Fin: fin1
+Tipo: Sondeo
+}
+@endUML
