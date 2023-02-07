@@ -1,0 +1,22 @@
+@startuml
+class Proyecto{
+    Nombre Proyecto: nombre1
+    Fecha Inicio: fecha1
+    Fecha Fin: fecha2
+}
+
+class Actividad{
+    Nombre Actividad: nombre1
+    Fecha Inicio: fecha1
+    Fecha Fin: fecha2
+    Duracion: duracion1
+    Responsable: responsable1
+    Estado: estado1
+}
+class Recurso{
+    Nombre Recurso: nombre1
+    Tipo Recurso: tipo1
+    Estado: estado1
+}
+
+@enduml
