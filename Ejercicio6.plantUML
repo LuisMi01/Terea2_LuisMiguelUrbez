@@ -1,0 +1,12 @@
+@startuml
+class Persona {
+    Nombre : Alvaro
+    Primer Apellido : Garcia    
+    Segundo Apellido :  Perez
+    Sexo : Hombre
+    Fecha de Nacimiento : 23/03/2003
+    Numero de Identificacion:   123456789
+    
+
+}
+@enduml
