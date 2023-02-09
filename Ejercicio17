@@ -1,0 +1,58 @@
+https://www.plantuml.com/plantuml/svg/VLEnQXmn4Etr5SEM0HzEwoBux5o88Ho6t0_CIMDdWbQpqMf3uCZ7f7IH8hXBkpyMhKvU2KJSBQCtxyrxCtiz1lHXwgtI5iSHRlXeMG9fFAczz4TFL_0M3lGZY7hFdhJc-TcLse7i_FGWJc9fitcJg_lvRqzUm11GFrX28-FIa-jgE_z9ZpXG5FUO-3X2HVrKUP9xYouWd5x8wlvR752pGLEALUU1-lbNuDP2XVd4HoydTVVvPb-PcN-7oSfQMESSffYAnkIzclNEiFIOdPERUZXNYipkw-8V_KdTpi-67olkdU4Wdj6sScY-JJpoAjT4u-UdCM0V3NmW_GMN7dOHBmMTNsWCF4mMJG8P-YvsAhmrqXFQ1dEvQTLtUQDDkgt74ZVfQBRgQ0-53Rd03tNCxTbLnFa-kYNy3Yuk97v2LnsmIZk6xl8CoCXo7N05x-2UV217chQ54FwBtjeZ-KS4zRBNHZvfgdL1bJh4vxLj8MENWlPOmIjyohux1vVm7-EQ1BQleTVTGDrmJSuiV_W_
+
+@startuml
+class Biblioteca{
+Nombre: 1 Texto
+Dirección: 1 Texto
+Teléfono: 1..* Texto
+Número de empleados: 1 Número
+Año de apertura: 1 Tiempo
+}
+
+class Planta {
+Número: 1 Número
+Capacidad: 1 Número
+}
+
+class Temática{
+Nombre: 1 Texto
+}
+
+class Libro{
+ISBN: 1 Texto
+Título: 1 Texto
+Año de publicación: 1 Tiempo
+Idioma: 1..* enum Idioma
+}
+
+class Ejemplar{
+Código: 1 Texto
+Editorial: 1 Texto
+Año de adquisición: 1 Tiempo
+}
+
+class Préstamo{
+Fecha de inicio: 1 Tiempo
+Fecha estipulada de devolución: 1 Tiempo
+Fecha real de devolución: 0.1 Tiempo
+}
+
+class Empleado{
+Nombre: 1 Texto
+Código: 1 Texto
+}
+
+class Lector{
+Nombre: 1 Texto
+Número de identificación: 1 Texto
+Dirección: 1 Texto
+}
+
+Planta "1..*" --o "1 " Biblioteca
+Libro "0..*" - "1..*" Temática : > PerteneceA
+Planta "1 " - "1..*" Temática : > Alberga 
+Ejemplar "1..*" --o "1 " Libro
+Préstamo "0..*" - " 1 "Ejemplar : > involucra
+Préstamo  "0..*" - " 0.1 "Lector : > Hecho A
+Préstamo  "0..*" - " 0.1 " Empleado : > Hecho A
+@enduml
