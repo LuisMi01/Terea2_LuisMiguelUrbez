@@ -50,7 +50,12 @@ Ejercicio 14:
 
 Ejercicio 16: 
  * <img src="https://www.plantuml.com/plantuml/svg/NP11ImCn48Nl-HMFFGfTr6CHgKX5Byk2_e6OZDifkpEIPA4Y_dU7sDRLKs2-b_VWs-JYKvcdqVMKief7qoSTIBXemdM3rGhDPTjUu97tsk2KMkC6sumTxpqYmRam-fnF-DC1GAVJQw8rhl12XwAenpxnH0btxpIE7FLCAtocOPQe2shJxJBnG65N5piVU6AIKYlg-LXn-5VQpJQeY8IdQ7b-us1_LVwMVxbV0_Sg7_D0F_oimA97iDHmYwqfHF3PHtjKu9pRa4Hp-Wq0"/>
-
+ 
+Ejercicio 17:
+ 
+ 
+Ejercicio 18:
+ * <img src="https://www.plantuml.com/plantuml/svg/RL4zJeGX4Etd55nW2riBivjrhTJ2U849J5OCC6Q0H8CUvZk05x3bOgv2_C1ioVl9Uu_PneIIidUW7SQeRbWyxWhisR5SgWlrIA-9uGCwlyzenBgw918kSClXQ5CsFyhx-kL9HYq7gx7ylHz8fxg4OtOdvoxefomu6QSGD5nMf7wA_lLTsxfuIiA3KwtMWxClaGeSdadTuHlB86iW1PP_gQsescpUh_e7mBHpOc2OqOX92xtyMGxwZawsN6YT9sXBmPoEyWq0"/>
 
 
 
