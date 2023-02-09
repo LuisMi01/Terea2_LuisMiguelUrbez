@@ -1,0 +1,43 @@
+https://www.plantuml.com/plantuml/svg/RP3FIWCn48VlynHXZqABNZr8Q-bDPC7YVReP9P1aIlw867qaJzwyxekPB5ctRFSuCr--p6ysFg0BqMZeD7elTYfAb0aUsHmTtOeRSQ3tmD0wVbEsKtZMmlxRJ-LNDUpz2Jl5swCY5tXxfbglh_xP4PRgHMLQPAp_DUHuGQZ9a0syzy75BaI7Ei51dGQKR3IY52CrkNUeDILuOFkgGfI5hdzCJAln0nCynHEviWZDg5aOqUHn8rOh5irrZjFKUq7DCROBKTcP0HRIB3ogEXWovC7dtOLeM7rv171nbWGjku0IeOqPGdZENRG8zwYx_iUMiB0XAwFHy0S0
+
+@startuml
+class Ciudad{
+Nombre: 1 Texto
+Provincia: 1 Texto
+País: 1 Texto
+}
+class EspacioAbiertoA{
+Nombre: 1..* Texto
+}
+
+class Edificio {
+Número: 1 Texto
+}
+class ElementoEstructural{
+Tipo: 1 enum TipoElemento
+}
+
+class Calle{
+Longitud: 1 Número
+}
+
+class Plaza{
+Superficie: 1 Número
+}
+
+EspacioAbiertoA " 1 " --o "0..*" Ciudad
+Edificio "0..*" --o " 1 " EspacioAbiertoA
+ElementoEstructural "0..*" --o " 1 " Edificio
+Calle --|> EspacioAbiertoA
+Plaza --|> EspacioAbiertoA
+
+
+enum TipoElemento{
+Portada
+Puerta
+Ventana
+Balcón
+}
+
+
+@enduml
