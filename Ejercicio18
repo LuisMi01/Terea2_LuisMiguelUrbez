@@ -1,0 +1,38 @@
+https://www.plantuml.com/plantuml/svg/RP11JaGX44JtVGekC0ktBinCnd6bBemNw41dn01j6aWqw67-0Ro0MoxcLuWV4fTKrKjNiOy99MNlG3kCKTsmU3mKEB9ZkLGNwf5U4yC7TF-OqOXrTKaaNE2MmzccR7wIz_NBaunP3bPZ-Ni_a4vr2UViLl8Gz5CMdC3f21ekcr8_HVzorxOkdfBmGAeDFJdx4gd0wPdK7Rwn3B4cKfZ55Mr5rMxtVjK_0AQTamF3Z6PCMUZb__MWx-XckmkjyoJ1deB9tdq3
+
+@startuml
+class FormaA{
+Color: 1 Texto
+}
+
+class Cuadrilátero{
+Longitud: 1 Número
+}
+
+class Conica{}
+
+class Rectángulo{
+Anchura: 1 Número
+}
+
+class Cuadrado{}
+
+class Círculo{
+Diámetro: 1 Número 
+}
+
+class Elipse{
+Eje Mayor: 1 Número
+Eje Menor: 1 Número
+}
+
+Conica --|> FormaA
+Cuadrilátero --|> FormaA
+
+Rectángulo --|> Cuadrilátero
+Cuadrado --|> Cuadrilátero
+
+Círculo --|> Conica
+Elipse --|> Conica
+
+@enduml
