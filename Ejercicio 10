@@ -1,4 +1,5 @@
 @startuml
+
 class Proyecto{
     Nombre Proyecto: nombre1
     Fecha Inicio: fecha1
