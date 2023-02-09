@@ -66,8 +66,11 @@ Ejercicio 20:
 Ejercicio 21:
  * <img src=""/>
 
-
-
+Ejercicio 22:
+ * <img src="https://www.plantuml.com/plantuml/svg/RP3FIWCn48VlynHXZqABNZr8Q-bDPC7YVReP9P1aIlw867qaJzwyxekPB5ctRFSuCr--p6ysFg0BqMZeD7elTYfAb0aUsHmTtOeRSQ3tmD0wVbEsKtZMmlxRJ-LNDUpz2Jl5swCY5tXxfbglh_xP4PRgHMLQPAp_DUHuGQZ9a0syzy75BaI7Ei51dGQKR3IY52CrkNUeDILuOFkgGfI5hdzCJAln0nCynHEviWZDg5aOqUHn8rOh5irrZjFKUq7DCROBKTcP0HRIB3ogEXWovC7dtOLeM7rv171nbWGjku0IeOqPGdZENRG8zwYx_iUMiB0XAwFH07y0"/>
+ 
+Ejercicio 23: 
+ * <img src="https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd3EpoifoanEpipFSwokvOAAkgPafcK2nO0Y27LPfNab-K2wkAIeD3C5B0TJfw2hMsE7OXONXWRiYX0S1IK3FJqj9Q2gV33JK0cBfLmEgNaf8DS30000"/>
 
 
 
