@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Estructura{
+    código Texto
+    datación Tiempo
+    materiales 1..*  enum Material
+    +List<EstructuraArqueologica> estructuras
+}
+
+Estructura "0..1 Estructura marco" o-- "0..* Sub-Estructura " Estructura
+    
+    enum Material {
+        piedra
+        madera
+        metal
+        cerámica
+        hueso
+        concha
+        ladrillo
+        barro
+        yeso
+    }
+@enduml
