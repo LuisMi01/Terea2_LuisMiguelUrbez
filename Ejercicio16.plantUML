@@ -1,0 +1,15 @@
+@startuml
+class Persona{
+    Nombre: 1 Texto 
+    Primer Apellido: 1 Texto
+    Segundo Apellido: 0...1 Texto
+    Fecha de Nacimiento: 1 Fecha
+    Sexo: 1 Texto
+    Numero de Identificacion: 0...1 Texto
+}
+
+Persona "Conyuge 0...1" -- "0...1 Conyuge" Persona : > Esta casada con 
+Persona "Progenitor 2" -- "0..* Hijo" Persona : < Es hija de 
+
+@enduml
+
