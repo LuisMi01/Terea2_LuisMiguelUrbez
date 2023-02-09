@@ -1,0 +1,54 @@
+@startuml
+class Restauracion{
+Fecha: Tiempo
+Descripcion: 1 Texto
+Tecnica: 1--* enum TecnicaRestauracion
+}
+class Objeto{
+Codigo: 1..*Textp
+Nombre: 1 texto
+Autor: 1 TExto
+Fecha de creacion: 1 Fecha
+Descripcion: 0...1 Texto
+Origen: 1 enum Lugar
+Estado: 1 enum Estado
+Temática: 1...* enum Tematica
+}
+class Coleccion{
+Nombre: 1 texto
+Descripcion: 1 texto
+}
+class ColeccionTemporal{
+Fecha inicio: 1 Fecha
+Fecha Final: 1 Fecha
+}
+class Edificio{
+Nombre: 1 Texto
+Direccion: 1 Texto
+}
+class Planta{
+Numero: 1 Numero
+
+}
+class Sala{
+Nombre: 1 Texto 
+Esta abierta la publico: 1 booleano
+}
+class Almacen{
+Nombre: 1 Texto
+}
+class u1Ubicacion{
+codigo: 1 Texto
+}
+
+Restauracion "0..*" -- "1..*" Objeto: > Se ha realizado sobre
+Objeto "1..*" -- "0.1" Coleccion : > Pertenece A
+ColeccionTemporal --|> Coleccion
+Objeto "0..*" -- "1" u1Ubicacion : > Se ubica en 
+Sala --|> u1Ubicacion
+Almacen --|> u1Ubicacion
+Sala "0..*" --o "1" Planta
+Planta "1..*" --o "1" Edificio
+
+
+@enduml
