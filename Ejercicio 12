@@ -5,7 +5,6 @@ class Estructura{
     código Texto
     datación Tiempo
     materiales 1..*  enum Material
-    +List<EstructuraArqueologica> estructuras
 }
 
 Estructura "0..1 Estructura marco" o-- "0..* Sub-Estructura " Estructura
