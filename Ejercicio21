@@ -1,0 +1,23 @@
+https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd3DAybCIKnnJyrFBpgyC2qpET6ncilvyEQKpFHyAmL3XP3KYf9yBh_ytAIYL0I_5gexe3Il9B-QAm8autTuLsvgKJvN938d2i41wO9gyydCIqrKg8QPubYKcWZaS85DKr0oqjFJKjBL1R8CG2oeQfYiCQeiMBC2JA-kReqTDYznWSt0BUrOX4_M8JKl1HHY0000
+
+@startuml
+class EntidadGeográficaA{
+Código: 1 Texto
+Nombre: 1 Texto
+}
+class Punto{
+X: 1 Número
+Y: 1 Número
+Z: 1 Número
+}
+
+class Linea {}
+class Area{}
+
+Punto "2..*"--o "0..*" Linea 
+Punto "3..*"--o "0..*" Area 
+
+Punto --|> EntidadGeográficaA
+Linea --|> EntidadGeográficaA
+Area --|> EntidadGeográficaA
+@enduml
