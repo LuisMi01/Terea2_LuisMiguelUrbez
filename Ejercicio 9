@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Cuadro{
+titulo: Texto
+Cronologia: Tiempo
+Tecnica: 1 enum Tecnica
+Sub-Tecnica: 1 enum sub-Tecnica
+Material de soporte: 1 enum Material
+Autor: 1 texto
+Estado de conservacion: 1 enum Estado-De-Conservacion
+}
+
+enum Tecnica {
+    Acuarela
+    oleo
+    pastel
+    fresco
+}
+enum Material {
+    lienzo
+    obra
+    madera
+        Alamo
+        Nogal
+}
+enum sub-Tecnica {
+    Sfumato
+    Pincelada Simple
+    Collage
+    Velardura
+}
+enum Estado-De-Conservacion{
+Excelente
+Bueno
+Regular
+Malo
+Destruido
+}
+
+@enduml
