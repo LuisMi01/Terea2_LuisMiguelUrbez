@@ -1,0 +1,44 @@
+java -jar plantuml.jar -testdot
+@startuml
+testdot
+@startuml
+
+class t1Poligono{}
+class pt1Punto{
+x = -10
+y = 10
+}
+class pt2Punto{
+x = -10
+y = -10
+}
+class pt3Punto{
+x = 10
+y = -10
+}
+pt1Punto --o t1Poligono : Posee
+
+pt2Punto --o t1Poligono : Posee
+
+pt3Punto --o t1Poligono : Posee
+
+class t2Poligono{}
+class pt4Punto{
+x = -10
+y = 10
+}
+class pt5Punto{
+x = -10
+y = -10
+}
+class pt6Punto{
+x = 10
+y = -10
+}
+pt4Punto --o t2Poligono : Posee
+
+pt5Punto --o t2Poligono : Posee
+
+pt6Punto --o t2Poligono : Posee
+
+@enduml
