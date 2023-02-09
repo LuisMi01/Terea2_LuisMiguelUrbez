@@ -1,2 +1,69 @@
 # Terea 2 Entregable
-## David Peinado, Alicia Martin, Ruben Alamo y Luis Miguel Urbez
+## David Peinado, Alicia Martin, Ruben Alamo, Alejandro Dominguez y Luis Miguel Urbez
+
+### Imagenes de los ejercicios resueltos:
+
+Ejercicio 1: 
+  * <img src="https://www.plantuml.com/plantuml/svg/LOz1YeCm58RtEKNm00CPcQMWEEvcNFG6ZoJOo3CfBycYbO87QHSzIs_YIPfABNKPydtVpojz00fnG2OHlETIr8PaH3Uosg4ZNl2irHsvZFqQ608vNWXsVj4aTbg6-yrsY_7dR6T2L4dAMMNbFXA7z13lrZnTMY2mFSpJDMNMrUywWY9GsuZu-laqgrF4HUEhfqM3vk3rkC4688FedcZJQ_uFn-KhJtkbjYeT-m00"/>
+
+Ejercicio 2: 
+ * <img src="https://www.plantuml.com/plantuml/svg/XO_DIiKm48NtynJp0hx0NSWL1GjINRXmFMrcCMMIaVo0K7ntQreJf8BBStA-BymrPOgvU8MNQU4vusCHLOxULeHdyrFaNi7TEwkAiuHl4boo2A_yOJZK7Np-E9ueythGDPp1rc2WMRnmo8QZgEDiORUEPU7OfGz2WPgrfhFsJ_AUebfgw1x_OzlHU7DRRy3BHYRQ0AYVV_TjTC515e9T_Ui5wvD1XuvHrrqvkEBr2m00"/>
+ 
+Ejercicio 3:
+ * <img src="https://www.plantuml.com/plantuml/svg/dPF1RXCn48Rl-nIZFT53959KRg2MKBYaA6eHzp_s41bvPyBOxWMG-WvSuH4uy0nvapu9k2njTWkXT0yho_EDvzV_suSfmtBfOjCG4Udo7RjCBuCw5Q-p0czA7nhQ-bw7NABI4shd-4sY7I179QjT4Qm2yqhFGM-2k33YPZ-XwS73HvFfmVJnS0ex2GxraCtdo3fiF2lBIRuXqjlI8O-O4sIsW4YUAUbQBNDbJ-3PK3SHqOrwZbE6rrfqAedj72werBPJNfK8ky4_zQknQJZbTQowxk_QaQY4Jkb11Ac5LH14ubHbtJ9qxzwE4YA5LK6azuLfQzHEgnT1NAmUfT2j8uyqrYtGvSMNFf7BYwzx_vcAw0hnhgayAoow8vDvMS6cL_zH7g-qMzglqILnFJpINCkvyN3sB1GFNxa5RFCj3QiBX5HhBmpY0jhc7rBsxofbOV3w5oNLB0l-pqgEqngRxzZsv7hPF-V9f69a_Jtrt59_Ps-J7vzIUyR4uWfBDX1Bsxjw3VVDE-dzfcaEMNpfuWy0"/>
+
+Ejercicio 4:
+ * <img src="https://www.plantuml.com/plantuml/svg/NP11JiD034NtEOKFm88KKSe2gMee5H9K24xWJjnWD1b7CvCLGkf1OD4Ze1uXD-b969T4jEp-oEzz9vw6Y3wsjSrazKOcGe6HIe_sbbxGHSPAvYMlsR2yPqkfLvxW1lQRpu63ac0WDHTIDn8YMTnllhAYjL6IaEXkPzb8zj1MWFwt8tcW8lmpps01c6XEQHuQxBxXq7P7vXM1dNuD674X-jOOxdOkzUNdLvSziMOtZE5ldezWr0EDvvey9WXSGAWy7b6Jqps1gXPSYK0HcruvsPkFUqDHQ1NLvNZKUg7_XolFLaC-oY7lbPACnG6StHTQEBaUPuyOoJFQz5vuTC1Hidc835RF-InrjtN0HjAfkbqyX1bwyABfoQfD4FIn936ssmOz_aSs9LUsjVq1"/>
+
+Ejercicio 5:
+ * <img src="https://www.plantuml.com/plantuml/svg/NOxHoSCm38JVFOLcoFyF40XTe1kejaWTPAaeraCRkdjDcfGGFGZkfE-uVgverGi7lKqKAmpPehCk0Tf4PJKG6arNdJ8MggRm1x64TzYXQrieuuzZbJ5NJ_3V_bO79TxT4BhDsAFHK2OyH0sEoJ2TWquSlfmFq8NpOwObRCU2bfarq4HGyAdsxRjAaYQxhNxeIP8N_W00"/>
+
+Ejercicio 6:
+ * <img src="https://www.plantuml.com/plantuml/svg/JSzB2i8m40RWVKunDsXjVA_QZOzDANY2CHara8TCMX75kvi45yxo_pz-c3QEoEFah50MOuI1E0QFy1QGhW_kp0HRwEm3EPHiOEE8eRkJjKQ7LEwHbS7S5N2Yw-HJyIVoBBr-xJCdXx9SaXsf6u8cw54PPyYF6JIogcNLrBKig9ySSSZgg9Cm5wEI3ZvjmwoHyyLojTuKASH7jEHr-kaB"/>
+
+Ejercicio 7:
+ * <img src="https://www.plantuml.com/plantuml/svg/dP312i8m38RlVOg-mZpkD447NaI6Bv2r4GjREvfC4Dcx6xkokOCNUsdpVU5lI4KCaSU-KwO38ds9uOc6mqjfEUVGjn4NM6gVG95aZUOE-kITSM9kd-fRrCvdkbEJol5xm-xXBDXD_aB__I3HmnX1EWNQ_9gx6wGXU8AsmrB7jPZjaHYin6Ew2pNbIHiqOwJj7ZBRJdbrGrWDI_KhM5NehQpw3G00"/>
+
+Ejercicio 8:
+ * <img src="https://www.plantuml.com/plantuml/svg/SoWkIImg2VNruKhDAyrL2Caio7TCBYbDJCxCpwlcKW22uFoybDHy1J3RjI8viGmi1-47fwQNPkPcfkQLv7FLSYNd91ONAo1fTqjDpaXKyCpB17Aj53B1j25Kr2qppqeXBJFFa0jafnN46f0f3gbvAK3t0000"/>
+
+Ejercicio 9:
+ * <img src="https://www.plantuml.com/plantuml/svg/TL2zJiCm4DxlARmnXOgrKqlQiGZHYlrgNuEbio-opwYYujr9d18A4fw-d_lknwkicBG4XhitrJul5ukUCOxAlPMmi8mvDyvZbp10PQOjw99SGBqMbgKvq5a5sYHHM3gFW-8fz087ij7RWJyOYYMOAuTzEJP_lVoZmGwLaaSsZaoMNfBINFVjmRgef57MEdwR5PsC2IinKtf7woNEiSbkDjIqDpPy0jnkPYvWXhUs1HCnLY9CKa6FMOahF2NALeRqhvMkQVOKFsJA7XDM4D3H5TO1Z45czYGTScqs_yFjDljJ2QXJ-REFbXWTchqFFLCLMs76RiAln9XSILZx_Nlu1RPdIqnH2HuBHO4NwWfZWXsom8QofkBTU2AiABeI-0i0"/>
+
+Ejercicio 10:
+ * <img src="https://www.plantuml.com/plantuml/svg/dO_D2i8m48JlUOgbHw65UkofWXQyY1HV84rM3AH9oOyWuhkRjcbh3tgmb-ryisncIkkeSRwLX319hOMpqGzaJZy9XE-asyRW30jG0yW7iq9set1KWedWN7lrQLH2HRebBqAc6v3a2QHf65csIM37dBWBJdaCi81LWfd-7Q6dUszes0oGnxznkqRRQMLf8x40iuZHFLX7UJYFmyn_bAcHUMFrL2NALP78rZKkejEBuuBwzdA9YljMlW40"/>
+
+Ejercicio 11:
+ * <img src="https://www.plantuml.com/plantuml/svg/bPDDRjH048NtFaN96mZIPEAWi1W1IXW2cmcC0c9VqrsOGkqkqpzPW91o1xPm01Oi44VmJN8IfZGnjfX4odXXI_NUwzVzsJwE2KFAZIlkVKYfZRFfj7NeTR9lf9dAwYEPDB6CTS2cA60pW7b66mI-571zlUMKdS0JA1S8BrcCU8lbF_aa9mcWAed7O0MU8xnZRtZacQyDrT71mqbrL3qQLYRZsQ26ks-EP0YyoQj96jJuFZUOHleP9WgC3Yn1b5P28lMTeQM0EaI7pSX_6XDQKS68ZnGkqB1uZPnJdHs6ZVMhtdiGvztFrka6TaTnuiLp8t3V8KZWcZqweAZzMvJsTiO4w83hZ0u-PO9HnQtybkiYfm0YDwsZ__Qb8uIho-_NcAykV-pjWDfBZUukg9zbyd83w6gHQmmZpA-aMOLDIuwaQpbOIBu8DDJCELkqe8V3qFsAWx94ZZf_4T0RnhBORZoyI-Coe9KR2lNeWUrsuMbiiVkD_GdrqVzDPGMl-vSqcK1viB__0ERICfR3TpQ3nq0HZ8x1qYY_2PIWqGhoYWqQxlxuicStWwSG2PmOTFmPWRocXwNNmSDRdKLnJDxcnlq5"/>
+
+Ejercicio 12: 
+ * <img src="https://www.plantuml.com/plantuml/svg/NOqnRiCm301tleB8KY20xMRjbALZf-O3Z4J40aJ9e2YWHP37z0rvWZ_MraqZ8zpk3YJtnKYjIeIdqMmgByCmHKg_fdTP1XUfbCu7EYa9m8BuMaohiwfq1lmPDrzzE6Kyy8VbnNWoSc6-9Zm4bkbF2XbheCW5Tts_HUHK1Tzk5Yu0xJ1kdlj-XoiXf2vlC7VTqhRuNe_TUW4RBEy0yU45dW5lCmNsIdSKyhn6DeftSgppbmJN-bYvvDPpScEBaRo665i_acgZp__L2-mv-Ihn6m00"/>
+
+Ejercicio 13:
+ * <img src="https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLWZ8pybCpy_Bhww52PJcbUGhL7Cf0465bOAXWj_XNRcfHVaAO95A916mG2qNp0G59KCbXNnTNGKbOpqzFQqu9QXHLa0xYbDJkHnIyrA0zW80"/>
+
+Ejercicio 14:
+ * <img src="https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuU9ApaaiBbOeCGp8pybCpy_Bhww52XK0nKhpIlAhkIeKR1Lq3GsuAe4qa48eCCAYG1T5XJ6I2XG5CDCLT7NpaMnNi588o2zEJUK2AZ0YfC0OdmAupuom-Co4aCzC2VhC3BVFJ93SPOJDuQQ459ZXL-2GcfS2Z3m0"/>
+ 
+ Ejercicio 15:
+  * <img src="https://www.plantuml.com/plantuml/svg/VP1FQmCX4CNlyoaU7WjAtIMNfIqvz5pw2GgobM3HjVW74aA-UoMDMrCIlGmZl_VUp6nZKY5bPocPP3N0NetQ1UKKz9SEivcDXzmmcgsA4U_UcfrVF8wd-fENL5f2UVi94c_PwU3F_Q7fJxHgcHJYWS5p3ZOAyS4k9XDUIa3K6dGnJxAArhpl9C_qaVPu1fUFT2Yrb3zWk07mAs9iY2kWkeDptwHZmjFlQ4JLlukCVUGVCTmWwWM6vWBh_9kx6zODEivLtiakRwkNp-pi3m00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
