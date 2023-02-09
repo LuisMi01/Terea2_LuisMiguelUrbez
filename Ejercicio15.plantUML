@@ -1,0 +1,44 @@
+
+@startuml
+title  "Diagrama ejercicio 15"
+class Poligono {}
+class Punto {
+    x: 1 Numero
+    y: 1 Numero
+}
+Poligono "1..*" o-- "3..^" Punto : > Posee 
+
+class t1Poligono{}
+class pt1Punto{
+x = -10
+y = 10
+}
+class pt2Punto{
+x = -10
+y = -10
+}
+class pt3Punto{
+x = 10
+y = -10
+}
+pt1Punto --o t1Poligono : < Posee
+
+pt2Punto --o t1Poligono : < Posee
+
+pt3Punto --o t1Poligono : < Posee
+pt3Punto --o t2Poligono : < Posee
+
+class t2Poligono{}
+
+class pt5Punto{
+x = -10
+y = -10
+}
+
+pt1Punto --o t2Poligono : < Posee
+pt5Punto --o t2Poligono : < Posee
+
+
+
+
+@enduml
