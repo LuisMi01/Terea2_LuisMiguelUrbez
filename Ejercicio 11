@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+ object Cuadro {
+        Titulo = "La Gioconda"
+        Autor = "Leonardo Da Vinci"
+        AC = 1503-1516
+        Tecnica = "Óleo"
+        Sub-tecnica = "sfumato"
+        Material de soporte = "Madera de alamo"
+        Estado de conservacion = "Regular"
+    }
+    object Réplica {
+        Titulo = "La Gioconda"
+        Autor = "Anonimo (la original es de Leonardo Da Vinci)"
+        AC = 1503-1516
+        Tecnica = "Óleo al igual que la original"
+        Sub-tecnica = "Pinclado simple (la original emplea “sfumato”)"
+        Material de soporte = "Madera de nogal"
+        Estado de conservacion = "Bueno"
+    }
+    object 1Lugar {
+        Nombre = "Museo del Louvre"
+        Ciudad = "París"
+        Pais = "Francia"
+
+    }
+    object 2Lugar {
+        Nombre = "Museo del Prado"
+        Ciudad = "Madrid"
+        Pais = "España"
+    }
+
+    Cuadro "1 Original"-- "0..* Copia" Réplica : < es copia de
+    Cuadro "0..*" -- "1 ubicación" 1Lugar : > se localiza en
+    Réplica -- 2Lugar : > se localiza en
+
+
+@enduml
