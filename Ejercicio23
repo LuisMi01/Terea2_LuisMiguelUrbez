@@ -1,0 +1,13 @@
+https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd3EpoifoanEpipFSwokvOAAkgPafcK2nO0Y27LPfNab-K2wkAIeD3C5B0TJfw2hMsE7OXONXWRiYX0S1IK3FJqj9Q2gV33JK0cBfLmEgNaf8DS30000
+
+@startuml
+class ContriccionA{}
+
+class Edificio{}
+
+class ConjuntoConstruido{}
+
+Edificio --|> ContriccionA
+ConjuntoConstruido --|> ContriccionA
+ContriccionA "0..*" --o "0..1" ConjuntoConstruido
+@enduml
